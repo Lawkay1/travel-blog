@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Use https://picsum.photos to display images -->
+    <header class="header">
+        <div class="container container--header">
+            <h4 class="header__logo">TRAVEL<span>BLOG</span></h4>
+            <ul class="header__navList">
+                <li> <a class="header__navLink" href="#articles">Articles</a></li>
+                <li><a href="#signIn" class="header__navLink"> Sign in</a> </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container container--hero">
+                <h4 class="hero__header">
+                    Welcome to Travel Blog:
+                    Insights, Inspiration, and More!
+                </h4>
+                <div class="hero__divider"></div>
+                <div class="hero__content">Insights, inspiration, and practical advice on a wide range of topics.
+                    Whether you're looking for the latest trends,
+                    expert tips, or simply a bit of inspiration to brighten your day!</div>
+
+                <a class="hero__button" href="#articles">Scroll to articles</a>
+            </div>
+        </section>
+        <section id="articles" class="latestArticles">
+            <div class="container container--latestArticles">
+                <div class="latestArticles__header">
+                    <h1>Latest articles</h4>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                </div>
+                <div class="latestArticles__body">
+                    <ul class="latestArticles__nav">
+                        <li class="latestArticles__navLink--active">All</li>
+                        <li class="latestArticles__navLink">Adventure</li>
+                        <li class="latestArticles__navLink">Travel</li>
+                        <li class="latestArticles__navLink">Fashion</li>
+                        <li class="latestArticles__navLink">Technology</li>
+                        <li class="latestArticles__navLink">Branding</li>
+                    </ul>
+                    <div class="latestArticles__cards">
+                        <div class="latestArticles__card">
+                            <img src="https://picsum.photos/id/237/200/300">
+                            <div class="latestArticles__cardContent">
+                                <h4>08.08.2021</h4>
+                                <h2>Lorem ispum dolor sit amet ipsum dolor ipsum</h2>
+                                <h4>Why do programmers prefer dark mode?
+                                    Because light attracts bugs! Lorem
+                                    ipsum dolor sit amet hue hue
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="latestArticles__card">
+                            <img src="https://picsum.photos/id/238/200/300">
+                            <div class="latestArticles__cardContent">
+
+                                <h4>08.08.2021</h4>
+                                <h2>Lorem ispum dolor sit</h2>
+                                <h4>Progressively incentivize cooperative systems through
+                                    technically sound functionalities.
+                                    The credibly productivate seamless data.
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="latestArticles__card">
+                            <img src="https://picsum.photos/id/239/200/300">
+                            <div class="latestArticles__cardContent">
+
+                                <h4>08.08.2021</h4>
+                                <h2>Dream destinations to visit this year</h2>
+                                <h4>Progressively incentivize cooperative systems
+                                    through technically sound functionalities.
+                                    The credibly productivate seamless data.
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="latestArticles__card">
+                            <img src="https://picsum.photos/id/240/200/300">
+                            <div class="latestArticles__cardContent">
+
+                                <h4>08.08.2021</h4>
+                                <h2>Dream destinations to visit this year</h2>
+                                <h4>Progressively incentivize cooperative systems
+                                    through technically sound functionalities.
+                                    The credibly productivate seamless data.
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="signIn" class="signInForm">
+            <div class="container container--signInForm">
+                <h1>Sign in form</h1>
+                <form action="#" method="post" class="form__content">
+                    <div class="form__row">
+                        <div class="form__input">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form__input">
+
+                            <label for="surname">Your surname</label>
+                            <input type="text" id="surname" name="surname" required>
+                        </div>
+                    </div>
+
+                    <div class="form__row">
+                        <div class="form__input">
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form__input">
+
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                    </div>
+
+                    <div class="form__row">
+                        <div class="form__input">
+
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                        <div class="form__input form__input--checkbox">
+                            <label><input type="checkbox" name="consent" required> Consent one</label>
+                            <label><input type="checkbox" name="extra-consent" checked> Consent two
+                                (pre-checked)</label>
+                            <button class="submit__button" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="container container--footer">
+                <div class="footer__contact">
+                    <h2>Contact the Publisher</h2>
+                    <h4>example@email.com</h4>
+                    <h4>+944 450 904 505</h4>
+                </div>
+                <div class="footer__explore">
+                    <h2>Explore</h2>
+                    <h4>About</h4>
+                    <h4>Partners</h4>
+                    <h4>Job Opportunities</h4>
+                    <h4>Advertise</h4>
+                    <h4>Membership</h4>
+                </div>
+                <div class="footer__address">
+                    <h2>Headquarter</h2>
+                    <h4>1999 Middleville,
+                        NY 1001, New York
+                        USA
+                    </h4>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="footerCopyright">
+            <div class="container container--footerCopyright">
+                <h3>2024 | Travel Blog</h2>
+                    <h4> Subscribe Now</h4>
+            </div>
+
+        </section>
+    </main>
+
+
+</body>
+
+</html>
